@@ -3,7 +3,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     last_element = ", and #{array.index(-1)}"
-    array
+    array.map! {|
     array.join(", ")
   end
 end
