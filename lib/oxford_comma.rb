@@ -3,7 +3,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     array.map! { |element|
-    if element 
+    if array.element 
     array.join(", ")
   end
 end
