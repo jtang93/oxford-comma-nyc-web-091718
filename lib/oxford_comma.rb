@@ -3,6 +3,8 @@ def oxford_comma(array)
     array.join("and ")
   else
     i = 0
-    for 
+    for i in array do
     array.join(", ")
+    end
+  end
 end
